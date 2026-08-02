@@ -1,23 +1,72 @@
 aid: paradromics
 name: Paradromics
-description: 'Paradromics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Paradromics is a clinical-stage neurotechnology company headquartered
+  in Austin, Texas, with a machine-learning and data-science office in Oakland, California,
+  developing high-data-rate implantable brain-computer interfaces (BCI). Founded in
+  2019 by Matt Angle, the company builds the Connexus BCI, an investigational fully
+  implantable system that records high-resolution intracortical neural activity and
+  transmits it through the skin to an external system that decodes intended speech,
+  text and digital device control for people with severe motor impairment. Connexus
+  holds FDA Breakthrough Device Designations for speech decoding (2023) and digital
+  device control (2024), was accepted into the FDA Total Product Life Cycle Advisory
+  Program, and received an Investigational Device Exemption in November 2025 for the
+  Connect-One Early Feasibility Study (ClinicalTrials.gov NCT07357428). Tempo BCI is
+  a pre-clinical-trial pipeline product. Paradromics publishes no public developer
+  API, SDK or machine-readable API contract; its only machine-readable public surface
+  is an llms.txt AI-context file at paradromics.com/llms.txt.'
 url: https://raw.githubusercontent.com/api-evangelist/paradromics/refs/heads/main/apis.yml
+image: https://paradromics.com/wp-content/uploads/2026/07/Paradromics-Brain-Computer-Interface-Platform-Company.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Brain-Computer Interface
+- Neurotechnology
+- Medical Devices
+- Health Care
+- Implantable Devices
+- Neural Data
+- Assistive Technology
+- Clinical Research
+- Artificial Intelligence
 apis: []
+x-enrichment:
+  date: '2026-08-02'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/paradromics-domain-security.yml
 - type: Website
+  url: https://paradromics.com/
+- type: About
+  url: https://paradromics.com/company/
+- type: Blog
+  url: https://paradromics.com/blog/
+- type: BlogRSS
+  url: https://paradromics.com/feed/
+- type: News
+  url: https://paradromics.com/news/
+- type: Support
+  url: https://paradromics.com/contact/
+- type: GitHubOrganization
+  url: https://github.com/paradromics
+- type: TermsOfService
+  url: https://paradromics.com/legal
+- type: PrivacyPolicy
+  url: https://paradromics.com/legal
+- type: LLMsTxt
+  url: llms/paradromics-llms.txt
+- type: SecondaryMarket
   url: https://forgeglobal.com/paradromics_stock/

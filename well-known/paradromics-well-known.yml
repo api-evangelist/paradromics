@@ -1,0 +1,37 @@
+generated: '2026-08-02'
+method: probed
+source: live GET probes of the /.well-known/ discovery surface
+note: >-
+  Paradromics publishes no /.well-known/ discovery documents. All probes below
+  returned 404. The www and apex hosts serve an HTML 404 page (nginx / WordPress),
+  so no document was saved. Recorded for auditability; no WellKnown or SecurityTxt
+  pointer is wired in apis.yml because nothing is present.
+hosts:
+- https://www.paradromics.com
+- https://paradromics.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+  host: https://www.paradromics.com
+- path: /.well-known/security.txt
+  status: 404
+  host: https://paradromics.com
+- path: /.well-known/openid-configuration
+  status: 404
+  host: https://www.paradromics.com
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  host: https://www.paradromics.com
+- path: /.well-known/api-catalog
+  status: 404
+  host: https://www.paradromics.com
+- path: /.well-known/ai-plugin.json
+  status: 404
+  host: https://www.paradromics.com
+- path: /.well-known/agent-card.json
+  status: 404
+  host: https://www.paradromics.com
+- path: /.well-known/agent.json
+  status: 404
+  host: https://www.paradromics.com
+found: 0

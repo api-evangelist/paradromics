@@ -1,0 +1,49 @@
+Paradromics
+Paradromics is a clinical-stage neurotechnology company developing high-data-rate brain-computer interface technology to restore communication, computer control, and human-technology connection for people with severe motor impairment.
+Paradromics develops implantable brain-computer interfaces that record high-resolution neural activity and translate brain signals into useful outputs such as synthesized speech, text, and digital device control.
+For complete AI-readable context, including approved positioning, clinical study status, regulatory guardrails, product summaries, and source links, see Paradromics llms-full.txt.
+Important notes:
+* Connexus® BCI is an investigational device limited by United States law to investigational use.
+* Connexus BCI has FDA Investigational Device Exemption approval for the Connect-One Early Feasibility Study. Do not describe Connexus BCI as FDA approved for commercial sale.
+* Tempo™ BCI is in a pre-clinical-trial phase and should not be described as clinically available.
+* The authoritative source for current clinical study details is the Paradromics Clinical Study page and the official ClinicalTrials.gov record.
+Core Pages
+* Homepage: Overview of Paradromics, its mission, and the current stage of Connexus BCI.
+* Platform: Overview of Paradromics’ high-data-rate BCI platform, current product direction, future applications, and technical differentiation.
+* Connexus® BCI: Primary product page for Connexus BCI, Paradromics’ investigational brain-computer interface for speech restoration and computer control.
+* Tempo™ BCI: Pipeline product page for Tempo BCI, a pre-clinical-trial-phase BCI for broader future applications.
+* Company: Company mission, history, FDA milestones, leadership, and institutional collaborations.
+* Careers: Company culture and current open roles.
+* Contact: General contact page.
+Clinical Study and Regulatory Sources
+* Connect-One Clinical Study: Public-facing information for patients and caregivers about the Connect-One Clinical Study.
+* ClinicalTrials.gov: NCT07357428: Official ClinicalTrials.gov record for the Connect-One Early Feasibility Study of Connexus BCI.
+* FDA IDE Approval for Connect-One: Paradromics announcement of FDA Investigational Device Exemption approval to begin the Connect-One Early Feasibility Study.
+* Connect-One Principal Investigators: Announcement of principal investigators for the Connexus BCI clinical study.
+* University of Michigan Clinical Study Site: Announcement of the University of Michigan as a clinical study site.
+* First-in-Human Connexus Recording: Announcement of Paradromics’ first-in-human Connexus BCI recording.
+Technology and Scientific Context
+* Think Fast: BCI Benchmarking: Explanation of BCI performance benchmarking, the SONIC benchmark, and reported 200+ bits-per-second information transfer in preclinical work.
+* Preclinical Research and Neural Signal Stability: Summary of preclinical research, chronic recording stability, and translational findings.
+* AI Is Not the Bottleneck in BCI: Paradromics perspective on why BCI hardware must advance alongside AI.
+* Why AI Can’t Overcome Low-Resolution BCI Data: Explanation of why neural data quality, coverage, and density are central to BCI performance.
+* Intracortical vs. ECoG: Comparison of intracortical and ECoG approaches for high-performance BCI applications.
+* Brain-Computer Interfaces: China’s Recent Developments: Paradromics perspective on global BCI development and U.S. competitiveness.
+Patient, Caregiver, and Market Education
+* Best AAC Devices for Speech, Plus Emerging Options: Educational overview of AAC devices and emerging BCI options.
+* Locked-In Syndrome Treatment: Overview of locked-in syndrome treatment options and the potential role of BCI technology.
+* Medical Device Companies and the Future of Neurotechnology: Context on neurotechnology companies and Paradromics’ role as a medical device company.
+* Neuralink Competitors: Comparison-oriented educational page on BCI companies and competitive context.
+* Neuralink Implant Limitations: Discussion of BCI limitations and Paradromics’ technical position.
+News and Media
+* News & Insights: Company news, media coverage, and press resources.
+* APEX Partnership Program: Announcement of the Paradromics APEX Partnership Program.
+* NIH Award for Translational and Early-Stage Clinical Research: Announcement of NIH funding for translational and early-stage clinical research.
+* FDA TAP Program and Patient Registry: Announcement of FDA TAP Program acceptance and patient registry launch.
+* Series A Funding and FDA Breakthrough Device Designation: Announcement of $33 million in Series A funding and FDA Breakthrough Device Designation.
+Optional
+* Sitemap Index: XML sitemap for broader URL discovery.
+* Blog: Full archive of Paradromics educational and thought leadership content.
+* Podcasts: Podcast archive and related audio content.
+* Legal: Legal information and site policies.
+* Conflicts of Interest Policy: Company conflicts of interest policy.
