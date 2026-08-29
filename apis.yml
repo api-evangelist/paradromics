@@ -15,6 +15,17 @@ description: 'Paradromics is a clinical-stage neurotechnology company headquarte
   API, SDK or machine-readable API contract; its only machine-readable public surface
   is an llms.txt AI-context file at paradromics.com/llms.txt.'
 url: https://raw.githubusercontent.com/api-evangelist/paradromics/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://paradromics.com/wp-content/uploads/2026/07/Paradromics-Brain-Computer-Interface-Platform-Company.png
 x-type: company
 x-source: harvest:secondary-market
