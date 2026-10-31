@@ -64,33 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Paradromics is a clinical-stage neurotechnology company (Austin, TX; founded 2019 by Matt Angle) developing
-high-data-rate implantable brain-computer interfaces. Its Connexus BCI is an investigational device under an
-FDA Investigational Device Exemption for the Connect-One Early Feasibility Study (ClinicalTrials.gov
-NCT07357428); Tempo BCI is a pre-clinical-trial pipeline product.
+Paradromics is a clinical-stage neurotechnology company headquartered in Austin, Texas, with a machine-learning and data-science office in Oakland, California, developing high-data-rate implantable brain-computer interfaces (BCI). Founded in 2019 by Matt Angle, the company builds the Connexus BCI, an investigational fully implantable system that records high-resolution intracortical neural activity and transmits it through the skin to an external system that decodes intended speech, text and digital device control for people with severe motor impairment. Connexus holds FDA Breakthrough Device Designations for speech decoding (2023) and digital device control (2024), was accepted into the FDA Total Product Life Cycle Advisory Program, and received an Investigational Device Exemption in November 2025 for the Connect-One Early Feasibility Study (ClinicalTrials.gov NCT07357428). Tempo BCI is a pre-clinical-trial pipeline product. Paradromics publishes no public developer API, SDK or machine-readable API contract; its only machine-readable public surface is an llms.txt AI-context file at paradromics.com/llms.txt.
 
-- Website: https://paradromics.com/
-- Company: https://paradromics.com/company/
-- Blog: https://paradromics.com/blog/
-- News: https://paradromics.com/news/
-- GitHub: https://github.com/paradromics
-- Secondary market listing: https://forgeglobal.com/paradromics_stock/
+**Areas:** Company · Brain-Computer Interface · Neurotechnology · Medical Devices · Healthcare · Implantable Devices · Neural Data · Assistive Technology · Clinical Research · Artificial Intelligence
 
-## API surface
+## Paradromics on APIs.io
 
-Paradromics publishes **no public developer API**. Contract discovery (2026-08-02) probed the apex and `www`
-hosts for `/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/v1/openapi.json`, `/api-docs`, `/redoc`,
-`/graphql`, `/mcp`, `/api`, `/developers`, `/developer` and the full `/.well-known/` discovery surface —
-every path returned 404. There are no `api.`, `developer.`, `docs.`, `status.` or `trust.` subdomains, the
-`paradromics` GitHub org publishes only a `.github` profile repo, and no first-party package exists on npm
-or PyPI. There is no OpenAPI, GraphQL, AsyncAPI, MCP server or A2A agent card to capture.
+Everything profiled for Paradromics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/paradromics/](https://apis.io/providers/paradromics/)** — or go straight to one of the APIs or properties below.
 
-The one machine-readable public surface is an **`llms.txt`** AI-context file, captured verbatim in `llms/`.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Path | Type | Method |
-|---|---|---|
-| `llms/paradromics-llms.txt` | LLMsTxt | searched (verbatim from https://www.paradromics.com/llms.txt) |
-| `well-known/paradromics-well-known.yml` | — (record of misses) | probed |
-| `security/paradromics-domain-security.yml` | DomainSecurity | probed |
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Paradromics Domain Security](https://apis.io/security/paradromics/paradromics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://paradromics.com/)
+- [Support](https://paradromics.com/contact/)
+- [Blog](https://paradromics.com/blog/)
+- [Terms of service](https://paradromics.com/legal)
+- [Privacy policy](https://paradromics.com/legal)
+- [GitHub](https://github.com/paradromics)
+
+## API Evangelist rating
+
+**Kin Score 11.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/paradromics/](https://apis.io/providers/paradromics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Paradromics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/paradromics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
